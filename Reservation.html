@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VhoTel</title>
+    <link rel="stylesheet" href="Reservation.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="wrapper">
+                <h1>VhoTel</h1>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About us.html">About Us</a></li>
+                        <li><a href="Rooms.html">Rooms</a></li>
+                        <li><a href="Facilities.html">Facilities</a></li>
+                        <li><a href="Reservation.html">Reservation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2 class="title">Reservation</h2>
+            <div class="content-wrapper">
+                <div class="form-box">
+                    <div class="form-content">
+                         <form>
+                            <label>Full Name:</label>
+                            <input type="text" name="" id="username">
+                            <label>Email:</label>
+                            <input type="email" name="" id="email">
+                            <label>Check in date:</label> 
+                            <input type="date" name="" id="check-in">
+                            <label>Check out date:</label> 
+                            <input type="date" name="" id="check-out">
+                        </form>
+                        <label>Type of room:</label>
+                        <select name="room list" id="rooms">
+                            <option value="Standard">Standard</option>
+                            <option value="Superior">Superior</option>
+                            <option value="Deluxe">Deluxe</option>
+                        </select>
+                        <br>
+                        <button type="button" onclick = "validate()">Submit</button>
+                    </div>
+                   
+                </div>
+              
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-wrapper">
+                <p>
+                    Jl. Raya Senen 135, Jakarta Pusat, 10410
+                    <br>
+                    Phone: +62 7068 5252
+                    <br>
+                    Fax: +62 103 5678
+                    <br>
+                    Email: booking@VHotel.com 
+                </p>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
